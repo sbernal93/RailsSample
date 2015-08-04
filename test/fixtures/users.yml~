@@ -1,4 +1,10 @@
 prueba:
-	name: Prueba Unitaria
-	email: prueba@unitaria.com
-	password_digest: <%= User.digest('password') %>
+ name: Prueba Unitaria
+ email: prueba@unitaria.com
+ password_digest: <%= User.digest('password') %>
+
+bar:
+ name: Foo Bar
+ email: foo@bar.com
+ password_digest: <%= User.digest('password') %>
+

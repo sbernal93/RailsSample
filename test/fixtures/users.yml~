@@ -5,6 +5,6 @@ prueba:
 
 bar:
  name: Foo Bar
- email: foo@bar.com
+ email: bar@foo.com
  password_digest: <%= User.digest('password') %>
 

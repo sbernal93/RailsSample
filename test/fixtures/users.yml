@@ -2,6 +2,7 @@ prueba:
  name: Prueba Unitaria
  email: prueba@unitaria.com
  password_digest: <%= User.digest('password') %>
+ admin: true
 
 bar:
  name: Foo Bar
